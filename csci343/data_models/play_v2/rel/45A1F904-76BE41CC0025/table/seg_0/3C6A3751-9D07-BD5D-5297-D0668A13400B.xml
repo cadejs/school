@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C6A3751-9D07-BD5D-5297-D0668A13400B" name="PLAY_LOCATION">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>6B990FA7-F2C4-D113-AC3E-BF68761D568C</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="location_id" id="CF9673C2-26B2-40F0-0268-3E882DF6A55D">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>E2A3A0D1-500B-693D-8AA5-E339C74779D7</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_name" id="8766A31D-3AE4-8A0E-63D3-93094EC65CFA">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>D580D6CD-A702-CCD4-AD4E-E4CBE1E1DC53</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_name" id="D4FDEFD0-809F-40AE-9063-D7218A3154F4">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>294B24A3-0863-F5F1-6201-DB6D2A5FC1E4</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_number" id="CE1FB9F6-4966-6E1D-0F1B-62CCCED3E1A3">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>BB076225-FAE2-6B71-98FB-9ED883860755</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="7381A756-CDBB-5D64-AB4B-A15E95ECDC10">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>7AAA5529-ACC1-1991-FF52-03933DF0FF04</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_state" id="9B659721-A46A-FC34-717B-563A5592A3A6">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>533B07DE-F908-63E9-259F-534D676CEBB0</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="428B9E65-97AE-29EC-67D1-943E212DD684">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>32924791-9311-D666-2083-F8A258093758</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAY_play_id" id="8DAEE5AB-98F3-8092-DAB5-CF529EF22167">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>09E6D731-7C8B-5A7D-D06D-9EA29AB60E6D</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AF3299A-03BB-464F-3BAA-B15086C93763" referredColumn="FDB37682-AE94-3986-A24D-73A46F080EF4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8286EF8-DEE9-419A-7CE6-64F14809B2BB" name="PLAY_LOCATION_PK">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>75A87C50-1839-ECB4-EE6F-B5E942FB9EC0</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF9673C2-26B2-40F0-0268-3E882DF6A55D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="239C5D7E-9251-0EC7-9C1E-B48E11CE79FE" name="location__IDX">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>943EFC25-5526-F306-6C47-F8CB83153F10</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8DAEE5AB-98F3-8092-DAB5-CF529EF22167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADBA5701-89D2-0EA8-0880-540FD9FEC475" name="PLAY_LOCATION_PLAY_FK">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>943EFC25-5526-F306-6C47-F8CB83153F10</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DAEE5AB-98F3-8092-DAB5-CF529EF22167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CE0E076-805A-C43E-9F67-220B87944768" name="PLAY_MEMBER">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>38E29F26-0541-0BF2-F3CF-48614AE43197</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mmbr_id" id="7112FDEF-6B8D-77A0-922B-F0C75B0449C9">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>8E30324E-75F3-192F-A20C-8068676EB13F</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="8B97ADF4-5ED1-6292-40F3-946CCBA1DC74">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>81CC5616-5D78-80ED-0F6F-73834AD387F1</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="1A035516-3F29-2EB3-DF6A-D8027E366B13">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>368E63D6-4B1A-10F4-C25F-0B54E93DCE87</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_number" id="B970489B-5589-921D-BAD8-BE85DC334F51">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>06A40388-FD0F-237E-277A-E99600EF16B3</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_name" id="D8CC843C-B54A-7A0C-0559-3DD473F85BC7">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>166265FA-1E52-68D2-994F-DC0EB113B0D8</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="A0319BB6-2319-D921-1C9C-439A85E4501F">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>5D651FE0-87D8-A7D2-1A6F-414BAA345693</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state_abreviation" id="E86A75C3-FAA3-65AE-C721-8CC8650E241D">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>C25E27A8-3AEC-1536-EDA5-88AD1A2F8DEB</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip_code" id="4921B6FF-876F-8CDA-3D9F-B82D4970513A">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>E7022026-4CDE-9770-A10C-A2588070A300</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AD6C856-433D-1CAD-29F1-BF90D5CA537B" name="PLAY_MEMBER_PK">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>F6A0FB10-5D92-6289-E3FD-ADB266A41797</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7112FDEF-6B8D-77A0-922B-F0C75B0449C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

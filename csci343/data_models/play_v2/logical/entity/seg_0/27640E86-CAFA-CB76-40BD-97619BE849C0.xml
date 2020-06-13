@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27640E86-CAFA-CB76-40BD-97619BE849C0" name="SPONSOR">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:39:22 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sponsor_id" id="DCE7811C-F550-C1D1-5FD2-69EA6078661D">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:39:37 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="862091A6-50DC-C983-B82F-4FE28F892D9E">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:40:04 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="331114D6-941A-5E1B-6C77-6D6395C5A182">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:40:26 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cash_donated" id="C5F0804E-C612-2399-64FE-584B80DE507B">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:40:45 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_name" id="5FD6A009-FF54-335A-D731-82045F11AD41">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:41:58 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_number" id="A26FB7D0-26BF-9A81-323A-E58731035BA1">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:42:13 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="1D997A5A-BBBC-6841-7035-CCFF9E4F6809">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:44:30 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="9D6AEBD8-6457-1297-1FCE-30FC63241FBA">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:44:43 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip" id="20937C40-CD3A-19B8-93E1-355F0D1C5A7A">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:44:58 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number" id="A867E05C-B451-2F43-CFE6-3C55058C9CA5">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:45:14 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="play_id" id="5964781D-6968-D5EC-07B0-174790203A5D">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:51:22 UTC</createdTime>
+<generatorID>C6E4BC39-F77B-07E6-183D-C39AECD63D71</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<referedAttribute>B3300DBB-8E9E-C791-210E-85A4ED0F5F3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04029DC7-36A5-0FA0-9344-9A22BC4B9FE7" name="SPONSOR PK">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 16:39:39 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCE7811C-F550-C1D1-5FD2-69EA6078661D</attributeRef>
+<attributeRef>5964781D-6968-D5EC-07B0-174790203A5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

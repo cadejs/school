@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18C92C2D-CB25-5921-2574-10A269EDF1ED" name="PLAY_JOB">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-27 01:06:35 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="play_id" id="4D4EF5C8-4E73-231B-6C3B-F5B454C70384">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-27 01:11:14 UTC</createdTime>
+<generatorID>829E20E0-003A-E710-A6AD-617A2E88CF24</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<referedAttribute>B3300DBB-8E9E-C791-210E-85A4ED0F5F3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job_title" id="FDF3CD80-8B80-5C0F-1D21-0AAED1F3E227">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-27 01:15:45 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mmbr_id" id="BA495BB6-125D-D961-67A1-532A2F4CACD5">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-27 01:17:41 UTC</createdTime>
+<generatorID>1159CCE7-EAE1-C8CB-741D-1BA7BCA9E099</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<referedAttribute>8E30324E-75F3-192F-A20C-8068676EB13F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="664D1E88-EED6-C218-5487-58427675135D">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-27 01:18:20 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CF0C5BB-15BC-317F-E91A-741DE798DABB" name="job PK">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-27 01:07:44 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<engineerTo>
+<item key="45A1F904-C3A5-24B2-F895-76BE41CC0025" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D4EF5C8-4E73-231B-6C3B-F5B454C70384</attributeRef>
+<attributeRef>BA495BB6-125D-D961-67A1-532A2F4CACD5</attributeRef>
+<attributeRef>664D1E88-EED6-C218-5487-58427675135D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

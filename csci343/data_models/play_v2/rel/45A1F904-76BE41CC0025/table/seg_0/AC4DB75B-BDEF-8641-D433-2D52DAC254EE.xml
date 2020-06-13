@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC4DB75B-BDEF-8641-D433-2D52DAC254EE" name="relation_2">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEMBER_member_id" id="F75EF630-D585-3589-ED11-52603200C9F6">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58FB43B3-6F1F-1490-097B-31EEAB903D1F" referredColumn="7112FDEF-6B8D-77A0-922B-F0C75B0449C9"/>
+</associations>
+</Column>
+<Column name="PLAY_play_id" id="64171D7C-2E53-A81B-7C96-3108D3900A19">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBF130E7-3273-7D2E-8ABB-DB4863B3A745" referredColumn="FDB37682-AE94-3986-A24D-73A46F080EF4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB5654AD-7AF1-32E9-52C6-D7FDE2FD7287" name="relation_2_PK">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F75EF630-D585-3589-ED11-52603200C9F6"/>
+<colUsage columnID="64171D7C-2E53-A81B-7C96-3108D3900A19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCDD5293-9497-091A-2A2E-1A63AD892EF0" name="relation_2_MEMBER_FK">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>F876BC0C-8390-7B61-BF23-1409677D52BE</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F75EF630-D585-3589-ED11-52603200C9F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB7B578A-3F12-773C-EB20-FA0C494A84CF" name="relation_2_PLAY_FK">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>F876BC0C-8390-7B61-BF23-1409677D52BE</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64171D7C-2E53-A81B-7C96-3108D3900A19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

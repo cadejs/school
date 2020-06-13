@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="play_v2" id="6388E113-0EEF-7E70-2C4D-DBCA00E68CB8" version="3.5">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-21 15:09:45 UTC</createdTime>
+<ownerDesignName>play_v2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6388E113-0EEF-7E70-2C4D-DBCA00E68CB8</designId>
+</OSDM_Design>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="270FFB3D-F7B7-A8CC-EB2D-E13D406B32CC" name="DUE">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>D31F50E0-9595-0739-81BD-96437E2D78B8</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="year" id="8397E057-2732-36C1-300A-B9529A6E5393">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>4A03BFAC-CCD4-6E68-A71A-6D810661756D</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_due" id="5837C759-8677-8B82-235F-B4C595B1C372">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>E8F4726E-4E6F-9C94-57A9-A20C50E36457</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAY_MEMBER_mmbr_id" id="903D8BF8-42FA-C382-3B3C-0676509E3424">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>597DDF86-ED11-CD09-A0D9-6D9702E8C931</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D15C2B29-3942-1217-A09D-9ADB3945B43A" referredColumn="7112FDEF-6B8D-77A0-922B-F0C75B0449C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D41E60D1-8284-838E-7F56-FD7966993080" name="DUE_PK">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>564471B7-B3AD-E213-258A-25CDC07825D9</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8397E057-2732-36C1-300A-B9529A6E5393"/>
+<colUsage columnID="903D8BF8-42FA-C382-3B3C-0676509E3424"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B407207-09BD-AF49-D825-9BC8E4065559" name="DUE_PLAY_MEMBER_FK">
+<createdBy>CadeJustadsandberg</createdBy>
+<createdTime>2019-09-29 18:21:06 UTC</createdTime>
+<generatorID>5EA28EB8-8F9C-D3B0-E45F-931652A8A490</generatorID>
+<ownerDesignName>play_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="903D8BF8-42FA-C382-3B3C-0676509E3424"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
