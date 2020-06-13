@@ -1,0 +1,50 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/CadeJustadsandberg/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/textbook/com.python.pydev.analysis/v2_indexcache
+week_four.supercomputer|1569970480000000000|/Users/CadeJustadsandberg/eclipse-workspace/textbook/week_four/supercomputer.py
+week_four.late.marbles|1569970853000000000|/Users/CadeJustadsandberg/eclipse-workspace/textbook/week_four/late/marbles.py
+week_four.late.tree_insertion|1569971097000000000|/Users/CadeJustadsandberg/eclipse-workspace/textbook/week_four/late/tree_insertion.py
+week_four.late.semafori_cade|1569970717000000000|/Users/CadeJustadsandberg/eclipse-workspace/textbook/week_four/late/semafori_cade.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+1=/Users/CadeJustadsandberg/eclipse-workspace/textbook/week_four/late/semafori_cade.py
+7=/Users/CadeJustadsandberg/eclipse-workspace/textbook/week_four/late/marbles.py
+3=/Users/CadeJustadsandberg/eclipse-workspace/textbook/week_four/late/tree_insertion.py
+5=/Users/CadeJustadsandberg/eclipse-workspace/textbook/week_four/supercomputer.py
+6=week_four.supercomputer
+8=week_four.late.marbles
+4=week_four.late.tree_insertion
+2=week_four.late.semafori_cade
+-- END DICTIONARY
+-- START TREE 1
+25
+L|1|L!1^13#9*19@
+N|1|N!1^12#9*19@
+all|1|allpermutations!3^53#9*35@
+bit|4|bitFlip!5^15#5*50@bitList!5^13#1*51@bitCount!5^24#5*50@bitlength!5^9#1*51@
+chi|1|children!7^34#1*67@
+cou|3|count!7^62#1*67@counter!5^33#1*51@counter!7^2#1*67@
+dep|1|depth!7^33#1*67@
+end|1|end!5^45#9*51@
+fin|2|finalmarbles!7^60#1*67@finalBYTE!5^11#1*51@
+gen|1|generatedindexes!3^7#5*34@
+gre|1|greenint!1^23#9*19@
+i|1|i!7^31#1*67@
+inp|3|input!5^34#1*51@inputs!7^10#1*67@inputval!1^9#5*19@
+ite|1|item!7^36#5*67@
+lig|1|lightlocation!1^21#9*19@
+mai|1|main!1^29#5*18@
+mar|2|marbs!7^61#1*67@marbles!7^8#1*67@
+new|1|newline!3^37#5*35@
+nod|2|nodes!7^7#1*67@node!7^25#5*67@
+red|1|redint!1^22#9*19@
+roa|1|road!1^14#9*19@
+seq|1|sequentialDistances!3^25#5*34@
+sta|1|start!5^44#9*51@
+tre|1|treelength!3^42#9*35@
+ver|2|vertcount!7^17#9*67@vertices!7^9#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

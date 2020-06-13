@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;plzwork.html, testtest.html&apos; to &apos;testPHP.upload&apos;" description="Move 2 resources to &apos;testPHP.upload&apos;" destination="/testPHP.upload" element1="/TestPHP-upload/plzwork.html" element2="/TestPHP-upload/testtest.html" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="2" stamp="1548186354325" updateReferences="true"/>
+</session>

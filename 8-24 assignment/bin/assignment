@@ -1,0 +1,27 @@
+Problem 1
+	While in maze
+		sense: facing wall? If no move forward one square
+		If facing wall, sense: wall to left? If no turn left and move forward one square
+		If wall to left, sense: wall to right? If no turn left and move forward one square
+		
+Problem 2  
+#follow the wall to the left
+	While in maze
+		Sense: wall to the left
+			If no turn left and move forward one square restart loop 
+		If yes, sense: wall in front,
+			 If no move forward one square restart loop
+		If wall in front, sense: wall to right? If no turn right and move forward restart loop
+		If yes: turn left restart loop
+		
+Problem 3
+#follow left wall, but sense for sensor on all sides at each restart of loop
+	While in maze
+	Is switch here?, if yes activate switch
+		Is wall to left: 
+			If no turn left and move forward one square restart loop 
+		If yes, is facing wall?
+			 If no move forward one square restart loop
+		If facing wall, sense is wall on right? 
+			If no turn right and move forward restart loop
+		If yes: turn left restart loop

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="235"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogHeight" value="500"/>
+		<item key="dialogWidth" value="800"/>
+		<list key="textEntries">
+			<item value="3"/>
+			<item value="1"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.debug.ui.VariableView"/>
+			<item value="org.eclipse.ui.views.ProblemView"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+		</list>
+		<list key="textArray">
+			<item value="vari"/>
+			<item value="variab"/>
+			<item value="var"/>
+			<item value="proble"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.egit.ui.CreateRepositoryWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.egit.ui.wizardCategory"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+		<item key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/CadeJustadsandberg/Desktop"/>
+		</list>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_WIDTH" value="682"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="625"/>
+		<item key="DIALOG_X_ORIGIN" value="-32"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.egit.ui.internal.clone.SmartImportGitWizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/CadeJustadsandberg/Documents/Fall 2019/Competative Programing/Kattis testing/enlarginghashtable.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/test3_final.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/project_04_v2.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/katisnormal.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/lab11_v1_final.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/lab12_final.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/lab10_final.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/lab10.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/lab09_4_5.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/lab09_4/5.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/lab09.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/project3/finalversion.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/version1.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/Test2/Test2_final.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/Test2/Test2.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/Lab 07/Lan08/Untitled.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/Lab 07/lab07final.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/Lab06/lab06.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/Project2/Project 2.zip"/>
+			<item value="/Users/CadeJustadsandberg/Documents/Spring 2019/CSCI202/lab05.zip"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+#Fri Apr 05 11:37:20 EDT 2019
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=assertions

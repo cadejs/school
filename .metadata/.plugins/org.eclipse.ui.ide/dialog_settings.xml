@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/CadeJustadsandberg/Documents/Fall 2019/Competative Programing"/>
+		<item value="/Users/CadeJustadsandberg/eclipse-workspace/Lab05"/>
+		<item value="/Users/CadeJustadsandberg/eclipse-workspace/project2"/>
+		<item value="/Users/CadeJustadsandberg/eclipse-workspace/project2/css"/>
+		<item value="/Users/CadeJustadsandberg/eclipse-workspace/Lab07"/>
+		<item value="/Users/CadeJustadsandberg/eclipse-workspace/Lab06"/>
+		<item value="/Users/CadeJustadsandberg/eclipse-workspace/Minesweeper"/>
+		<item value="/Users/CadeJustadsandberg/Desktop/FinalExamCade.zip"/>
+		<item value="/Users/CadeJustadsandberg/Desktop/FinalExamMakeup.zip"/>
+		<item value="/Users/CadeJustadsandberg/Desktop/Review copy.zip"/>
+		<item value="/Users/CadeJustadsandberg/Desktop/Reviewowen.zip"/>
+		<item value="/Users/CadeJustadsandberg/Desktop/Review.zip"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.python.pydev.ui.wizards.project.PythonProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.python.pydev.PythonCategory"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.views.markers.FiltersConfigurationDialog">
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="528"/>
+		<item key="DIALOG_X_ORIGIN" value="378"/>
+		<item key="DIALOG_Y_ORIGIN" value="22"/>
+	</section>
+	<section name="NewSyncProjectWizard">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/CadeJustadsandberg/git/cadejs.github.io"/>
+		</list>
+	</section>
+</section>

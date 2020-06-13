@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;Project1outline.html&apos; to &apos;Project1&apos;" description="Move &apos;Project1outline.html&apos; to &apos;Project1&apos;" destination="Project1" element1="/TestPHP-upload/Project1/Project1outline.html" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1548960429628" updateReferences="true"/>
+</session>

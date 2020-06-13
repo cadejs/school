@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TestPHP-upload/Project1/NewFile.html&apos; to &apos;Project1outline.html&apos;" description="Rename resource &apos;NewFile.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Project1/NewFile.html" name="Project1outline.html" stamp="1548960391690" updateReferences="true"/>
+</session>

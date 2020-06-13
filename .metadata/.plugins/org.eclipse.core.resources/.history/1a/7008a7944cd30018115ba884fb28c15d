@@ -1,0 +1,44 @@
+package edu.unca.csci201;
+
+import java.util.Random;
+
+public class TuppenceABag {
+
+	public static void main(String[] args) {
+
+		System.out.println("Feed the birds ...");
+		
+		Random rand = new Random();
+		
+		BirdFeeder theFeeder = new BirdFeeder();
+		
+		theFeeder.fillUp(rand.nextInt(75) + 25);
+		
+		Bird bird1 = new Bird();
+		Bird bird2 = new Bird();
+		
+		
+		for (int i = 0; i < 5000; i ++) {
+		
+			Bird toFeed;
+			
+			if (rand.nextBoolean()) {
+				toFeed = bird1;
+			} else {
+				toFeed = bird2;				
+			}
+			
+			theFeeder.feedBird(toFeed, rand.nextInt(10));
+			
+		}
+		
+		System.out.println("Lots of eating going on here...");
+		System.out.println();
+		System.out.println("Bird 1 ate: " + bird1.getAmountOfSeedsEaten());
+		System.out.println("Bird 2 ate: " + bird2.getAmountOfSeedsEaten());
+		System.out.println();
+		System.out.println("The feeder has " + theFeeder.getAmountOfSeeds() + " seeds remaining");
+		
+	}
+
+}

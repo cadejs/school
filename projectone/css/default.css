@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* default.css for Cjustads/Project1/ */
+
+
+
+body {
+	
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Verdana";
+	font-size: 1em;
+	width: 800px;
+	background-color: #a461a1;
+	height:100%;
+	
+	
+}
+header {
+	background-color: #a9a9a9;
+	width:100%;
+	float: center;
+}
+
+#mstache {
+	float: right;	
+	
+}
+.main { 
+	background: #009a9a;
+}
+
+.centerwebsite{
+	background: #00c6c6;
+}
+#face {
+
+	margin: 50px;
+	float: right;
+	width: 50%;
+	clear: both;
+	border-color: grey;
+	border: solid;
+}
+
+
+img {
+	float:right;
+	width: 30%;	
+	margin: 25px;
+}
+
+#painting {
+	
+	float: right;
+	width: 50%;
+	clear: both;
+}
+
+h1 {
+	margin-top: 25px;
+	margin-bottom:25px;
+	text-align: center;
+}
+
+h2 {
+	float: center;
+}
+ul {
+	 padding: 10px 20px;
+}
+
+
+nav{
+padding-left:5em;
+padding-right:5em;
+text-align: center;
+height:200px;
+border-style:groove;
+border-radius: 150px;
+border-color:black;
+width: 40%;
+ padding: 25px 50px;
+ background-color: #9ac59e;
+}
+
+
+
+
+.center {
+	margin: 25px;
+}
+
+footer {
+	margin: 100px 25px 20px;
+	position: relative;
+	float: left;
+	width:50%;
+
+    text-align: center;    
+    border-style: solid;
+}

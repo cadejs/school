@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Cell.java&apos; to &apos;Minesweeper/src/edu.unca.csci202&apos;&#x0A;- Original project: &apos;Minesweeper&apos;&#x0A;- Destination element: &apos;Minesweeper/src/edu.unca.csci202&apos;&#x0A;- Original element: &apos;Cell.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;edu.unca.csci202" element1="/src&lt;{Cell.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1547929148285" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/cadejs/cadejs.github.io.git"/>
+		<item value="https://github.com/UNCA-CSCI-201-002-Spring-2018/moreifs-cadejs.git"/>
+		<item value="https://github.com/UNCA-CSCI-201-002-Spring-2018/objectarrays-cadejs.git"/>
+		<item value="https://github.com/UNCA-CSCI-201-002-Spring-2018/2darrays-cadejs.git"/>
+		<item value="https://github.com/cadejs/201-final.git"/>
+		<item value="https://github.com/cadejs/csci201assignment.git"/>
+		<item value="https://github.com/UNCA-CSCI-201-002-Spring-2018/switching-cadejs.git"/>
+		<item value="https://github.com/UNCA-CSCI-201-002-Spring-2018/encapsulation-cadejs.git"/>
+		<item value="https://github.com/UNCA-CSCI-201-002-Spring-2018/oopbooks-cadejs.git"/>
+		<item value="https://github.com/UNCA-CSCI-201-002-Spring-2018/methodsparams-cadejs.git"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="cadejs &lt;42820131+cadejs@users.noreply.github.com&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@192.168.1.15&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@192.168.1.2&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@dhcp-106-42.jus.secure.int.wireless.unca.edu&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@192.168.1.8&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@dhcp-87-56.ram.secure.int.wireless.unca.edu&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@192.168.1.7&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@dhcp-22-17.rro.secure.int.wireless.unca.edu&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@dhcp-23-32.rro.secure.int.wireless.unca.edu&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@dhcp-192-181.lip.secure.int.wireless.unca.edu&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="cadejs &lt;42820131+cadejs@users.noreply.github.com&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@192.168.1.15&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@192.168.1.2&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@dhcp-106-42.jus.secure.int.wireless.unca.edu&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@192.168.1.8&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@dhcp-87-56.ram.secure.int.wireless.unca.edu&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@192.168.1.7&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@dhcp-22-17.rro.secure.int.wireless.unca.edu&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@dhcp-23-32.rro.secure.int.wireless.unca.edu&gt;"/>
+		<item value="CadeJustadsandberg &lt;CadeJustadsandberg@dhcp-192-181.lip.secure.int.wireless.unca.edu&gt;"/>
+	</list>
+	<section name="GitImportWizard">
+		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="650"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="440"/>
+		<item key="DIALOG_X_ORIGIN" value="93"/>
+		<item key="DIALOG_Y_ORIGIN" value="107"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="489"/>
+		<item key="DIALOG_Y_ORIGIN" value="234"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="/Users/CadeJustadsandberg/git/oopbooks-cadejs/.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
+		<item key="DIALOG_WIDTH" value="600"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="440"/>
+		<item key="DIALOG_X_ORIGIN" value="340"/>
+		<item key="DIALOG_Y_ORIGIN" value="67"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+	</section>
+</section>
